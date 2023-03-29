@@ -7,4 +7,6 @@ To run the second study use experiment2.html and experiment2.js in JATOS. Analog
 
 All experiments have individual converter files as we've gathered slightly different results in each run.
 
+Plotting is done in Python using Pandas and Matplotlib.
+
 Don't hesitate to reach out if anything in the code is unclear.
