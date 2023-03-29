@@ -1,0 +1,360 @@
+#textcontainer {
+  display:flex;
+  width: 70%;
+  float: center;
+  margin: auto;
+
+  
+}
+
+.slidercaption {
+ 
+  float: left;
+}
+
+.slidercaption2 {
+ 
+  float: left;
+}
+/* .slidecontainer {
+  width: 100%;
+  float: left;
+ 
+}
+.slider {
+  
+  width: 75%;
+	margin: 10px;
+  
+  float: none;
+} */
+
+.option {
+	border:1px solid #000000;
+}
+
+div.wrapper div {
+    display: inline-block;
+}
+
+.loader {
+  position: absolute;
+  left: 50%;
+  border: 4px solid #f3f3f3; /* Light grey */
+  border-top: 4px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.playground_settings {
+  height: auto;
+  float: left;
+}
+
+/* monster styles */
+
+/* small scene*/
+
+.monster_A {
+  position: absolute;
+  top: 5em;
+  left: 0em;
+  z-index: 2;
+  width: 5em;
+}
+
+.monster_B {
+  position: absolute;
+  top: 5em;
+  left: 20em;
+  z-index: 2;
+  width: 5em;
+}
+
+.monster_img {
+  position: relative;
+  width: 5em;
+}
+
+.monster_img_small {
+  position: relative;
+  width: 3em;
+}
+
+.monster_eyelid {
+  position: absolute;
+  left: 0em;
+  width: 5em;
+}
+
+.monster_eyelid_small {
+  position: absolute;
+  left: 0em;
+  width: 3em;
+}
+
+.rock {
+  display: none;
+  position: absolute;
+  top: 9em;
+  width: 3.5em;
+  z-index: 1;
+}
+
+.rock_throw {
+  display: none;
+  position: absolute;
+  top: 4em;
+  width: 4em;
+  z-index: 3;
+}
+
+.rock_throw_small {
+  display: none;
+  position: absolute;
+  width: 2.4em;
+  z-index: 3;
+}
+
+#playground_box {
+  height: 15em;
+  width: 45em;
+  position: relative; 
+}
+
+#container_small_1 {
+  height: 15em;
+  width: 45em;
+  position: relative; 
+}
+
+#container_small_2 {
+  height: 15em;
+  width: 45em;
+  position: relative;
+}
+
+#container_small_3 {
+  height: 15em;
+  width: 45em;
+  position: relative;
+}
+
+.background {
+  height: 15em;
+  width: 45em;
+  
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../pictures/background_border.png");
+  background-size: contain;
+  float: left;
+  
+}
+
+.hide_monster {
+  background-color: white;
+  width: 6em;
+  height: 15em;
+  float: left;
+  z-index: 4;
+}
+
+#hide_left {
+  position: absolute;
+}
+
+#hide_right {
+  position: absolute;
+  right: 0em;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* big scene */
+.A1 {
+  top: 3em;
+  left: 15em;
+  width: 3em;
+  position: absolute;
+}
+
+.A2 {
+  top: 10em;
+  left: 12em;
+  width: 3em;
+  position: absolute;
+}
+
+.A3 {
+  top: 17em;
+  left: 20em;
+  width: 3em;
+  position: absolute;
+}
+
+.A4 {
+  top: 24em;
+  left: 07em;
+  width: 3em;
+  position: absolute;
+}
+
+.B1 {
+  top: 3em;
+  left: 36em;
+  width: 3em;
+  position: absolute;
+}
+
+.B2 {
+  top: 10em;
+  left: 32em;
+  width: 3em;
+  position: absolute;
+}
+
+.B3 {
+  top: 17em;
+  left: 33em;
+  width: 3em;
+  position: absolute;
+}
+
+.B4 {
+  top: 24em;
+  left: 19em;
+  width: 3em;
+  position: absolute;
+}
+
+
+#container_big_1 {
+  height: 15em;
+  width: 45em;
+  position: relative;
+}
+
+#container_big_2 {
+  height: 15em;
+  width: 45em;
+  position: relative;
+}
+
+#background_scene {
+  height: 30em;
+  width: 45em;
+  
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../pictures/background_big.png");
+  background-size: contain;
+  float: left;
+  
+}
+
+.hide_monster_scene {
+  background-color: white;
+  width: 6em;
+  height: 30em;
+  float: left;
+  z-index: 3;
+}
+
+#training2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+
+.scene_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 30em;
+}
+
+.continue_button {
+  margin-top: 10px;
+}
+
+.title_image {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.selected{
+  box-shadow:0px 12px 22px 1px #333;
+}
+
+
+.rating {
+   position: static; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom:0;
+  width: 150px;
+  height: 30px;
+  padding: 5px 10px;
+  margin: auto;
+  border-radius: 30px;
+  background: #FFF;
+  display: block;
+  overflow: hidden;
+  
+  box-shadow: 0 1px #CCC,
+              0 5px #DDD,
+              0 9px 6px -3px #999;
+  
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating:not(:checked) > input {
+  display: none;
+}
+
+#like {
+  bottom: -65px;
+}
+#like:not(:checked) > label {
+  cursor:pointer;
+  float: right;
+  width: 30px;
+  height: 30px;
+  display: block;
+  
+  color: rgba(233, 54, 40, .4);
+  line-height: 33px;
+  text-align: center;
+}
+#like:not(:checked) > label:hover,
+#like:not(:checked) > label:hover ~ label {
+  color: rgba(233, 54, 40, .6);
+}
+#like > input:checked + label:hover,
+#like > input:checked + label:hover ~ label,
+#like > input:checked ~ label:hover,
+#like > input:checked ~ label:hover ~ label,
+#like > label:hover ~ input:checked ~ label {
+  color: rgba(233, 54, 40, .8);
+}
+#like > input:checked ~ label {
+  color: rgb(233, 54, 40);
+} 
+
